@@ -53,6 +53,13 @@ h1 {
 
 h2 {
   font-size: 3.5rem;
+  border: 2px solid gray;
+  border-radius: 8px;
+  position: absolute;
+  text-align: center;
+  width: 90%;
+  top: -25px;
+  background: var(--outer-space);
 }
 
 h3 {
@@ -75,6 +82,11 @@ p {
   margin-bottom: 1rem;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 code {
   /* Monospace font stack is used for our code blocks to make it look more like code */
   font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
@@ -94,6 +106,9 @@ code {
 
 /* make each code card a flexbox column to align and justify content within it */
 .code-card {
+  margin: 15px;
+  padding: auto;
+  position: relative;
   /* outline is like border, but on the outside of the box instead of inside */
   outline: 2px dashed var(--gin);
   outline-offset: -2px;
