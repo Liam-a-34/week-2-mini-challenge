@@ -30,16 +30,12 @@ body {
   background-color: var(--outer-space);
 }
 
-header {
+header, footer{
   text-align: center;
 }
 
-h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3,{
   margin-bottom: 0.625rem;
   color: var(--heliotrope);
   font-weight: 700;
@@ -49,30 +45,19 @@ h6 {
 h1 {
   /* 4rem = 40px (4 * 10px) */
   font-size: 4rem;
+  text-align: center;
+  color: #e866ec;
 }
 
 h2 {
   font-size: 3.5rem;
+  margin:auto;
+ 
 }
 
 h3 {
-  font-size: 3rem;
-}
-
-h4 {
-  font-size: 2.5rem;
-}
-
-h5 {
   font-size: 2rem;
-}
-
-h6 {
-  font-size: 1.5rem;
-}
-
-p {
-  margin-bottom: 1rem;
+  margin: 10px;
 }
 
 code {
@@ -84,13 +69,15 @@ code {
 }
 
 /* create our main grid with flexbox, use negative margins to offset the padding on the .card-column class */
-
+main {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
-.card-column {
-  /* when the screen resizes, make it so our columns don't jump in size */
-  transition: flex-basis 500ms linear;
-}
 
 /* make each code card a flexbox column to align and justify content within it */
 .code-card {
@@ -98,6 +85,12 @@ code {
   outline: 2px dashed var(--gin);
   outline-offset: -2px;
   transition: all 0.5s ease-in-out;
+  width: 500px;
+  height: 700 px;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 15px 15px 15px;
 }
 
 .code-card .card-header {
@@ -106,6 +99,13 @@ code {
   color: var(--heliotrope);
   border: 2px solid var(--gin);
   transition: all 0.5s ease-in-out;
+  justify-content: center;
+}
+
+.card-header {
+  position: relative;
+  margin-top: -20px;
+  width: 350px;
 }
 
 /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
@@ -115,7 +115,9 @@ code {
 }
 
 /* each card's code block grows to the height of the largest code block on the page, making each card even in height */
-.code-card .code-block {}
+.code-card .code-block {
+  
+}
 
 .code-card pre {
   /* set styles to make it so code wraps in <pre> instead of overflowing */
@@ -141,7 +143,7 @@ code {
 @media screen and (min-width: 768px) {
 
   /* on tablets, set columns to only be 50% of the width and not grow */
-  .card-column {}
+  .code-card {}
 
   /* select the last child to grow to full width if it has space to grow */
   .card-column:last-child {}
@@ -151,5 +153,5 @@ code {
 @media screen and (min-width: 992px) {
   header {}
 
-  .card-column {}
+  .code-card {}
 }
