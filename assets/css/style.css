@@ -1,3 +1,4 @@
+
 /* color scheme sourced from http://khroma.co/generator/ */
 :root {
   --outer-space: #33393f;
@@ -27,6 +28,10 @@ body {
   line-height: 1.5;
   color: var(--gin);
   background-color: var(--outer-space);
+}
+
+header {
+  text-align: center;
 }
 
 h1,
