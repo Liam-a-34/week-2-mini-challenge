@@ -13,8 +13,7 @@ Mini challenge 2 focuses on build a webpage that will hold a collection of CSS s
 
 ## Installation
 
-To revise our code, navigate to ----- > click clone (copy the link) > navigate to GitBash > run git clone command
- To view mini challenge 2, please navigate to: --------
+To revise our code, navigate to https://github.com/Liam-a-34/week-2-mini-challenge. click code (copy the link) > navigate to GitBash > run git clone command. To view mini challenge 2, please navigate to: --------
 
 ## Specifications
 
@@ -60,4 +59,4 @@ Group project members: Liam Allen, Joon,Trenton Kirchner, and Alexandria White.
 N/A
 
 ## 📝 Notes
-We learned how to use <pre> which is used to structure text, almost like hard coding spaces and indentations. This keeps the user from having to do individual lines and keeps the CSS code clean.
+We learned how to use pre which is used to structure text, almost like hard coding spaces and indentations. This keeps the user from having to do individual lines and keeps the CSS code clean.
