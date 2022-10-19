@@ -93,11 +93,8 @@ main {
   justify-content: center;
 }
 
-/* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
-
 /* make each code card a flexbox column to align and justify content within it */
 .code-card {
-  /* outline is like border, but on the outside of the box instead of inside */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -110,7 +107,6 @@ main {
 }
 
 .code-card .card-header {
-  /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
   background-color: var(--outer-space);
   color: var(--heliotrope);
   border: 2px solid var(--gin);
@@ -133,7 +129,6 @@ main {
 }
 
 .code-card pre {
-  /* set styles to make it so code wraps in <pre> instead of overflowing */
   white-space: pre-wrap;
   overflow: auto;
   tab-size: 4;
