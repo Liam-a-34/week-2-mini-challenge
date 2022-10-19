@@ -2,7 +2,7 @@
 
 ## Description
 
-Mini challenge 2 focuses on build a webpage that will hold a collection of CSS snippets. What better way to learn CSS than to build a knowledge base of CSS? This is was completed in a group project setting by Liam Allen, Joon,Trenton Kirchner, and Alexandria White.
+Mini challenge 2 focuses on building a webpage that  holds a collection of CSS snippets. What better way to learn CSS than to build a knowledge base of CSS? This group challenge was completed by Liam Allen, Joon Kim, Trenton Kirchner, and Alexandria White.
  
 
 - As a user, I can view a collection of labeled CSS snippets in a responsive grid.
@@ -51,12 +51,12 @@ To revise our code, navigate to https://github.com/Liam-a-34/week-2-mini-challen
 
 ## Credits
 
-Group project members: Liam Allen, Joon,Trenton Kirchner, and Alexandria White.
+Group project members: Liam Allen, Joon Kim, Trenton Kirchner, and Alexandria White.
 
 
 ## License
 
-N/A
+MIT License
 
 ## 📝 Notes
 We learned how to use pre which is used to structure text, almost like hard coding spaces and indentations. This keeps the user from having to do individual lines and keeps the CSS code clean.
