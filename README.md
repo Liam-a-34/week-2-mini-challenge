@@ -1,19 +1,24 @@
-# week-2-mini-challenge
+# Week 2 Mini Challenge
+# Table of Contents:
 
-## Description
+* Description 
+* Instructions
+* Specification
+* Mock-Up 
+* Credit
+* License
+* Links
+* Notes
+
+# Description
 
 Mini challenge 2 focuses on building a webpage that  holds a collection of CSS snippets. What better way to learn CSS than to build a knowledge base of CSS? This group challenge was completed by Liam Allen, Joon Kim, Trenton Kirchner, and Alexandria White.
- 
+# Instructions 
 
 - As a user, I can view a collection of labeled CSS snippets in a responsive grid.
 - As a user, I can easily identify these CSS snippets by their headings.
 - As a user, I can highlight a code snippet by clicking on it.
 - As a user, I can view my application on a mobile device as well as a desktop.
-
-
-## Installation
-
-To revise our code, navigate to https://github.com/Liam-a-34/week-2-mini-challenge. click code (copy the link) > navigate to GitBash > run git clone command. To view mini challenge 2, please navigate to: --------
 
 ## Specifications
 
@@ -45,18 +50,27 @@ To revise our code, navigate to https://github.com/Liam-a-34/week-2-mini-challen
 
     ![On a mobile device, the application displays one CSS code snippet per row.](./Images/03-app-mobile.png)
 
-    
+
+# Mock-Up    
 ![Screenshot of the live webpage](./assets/images/screenshot.png)
 
 
-## Credits
+# Credit
 
-Group project members: Liam Allen, Joon Kim, Trenton Kirchner, and Alexandria White.
+Group project members: 
+* Liam Allen
+* Joon Kim
+* Trenton Kirchner
+* Alexandria White
 
 
-## License
+# License
 
-MIT License
+* MIT License
 
-## 📝 Notes
-We learned how to use pre which is used to structure text, almost like hard coding spaces and indentations. This keeps the user from having to do individual lines and keeps the CSS code clean.
+# Links
+* URL of deployed application: 
+* URL of GitHub Repository: https://github.com/Liam-a-34/week-2-mini-challenge
+
+# 📝 Notes
+* We learned how to use pre which is used to structure text, almost like hard coding spaces and indentations. This keeps the user from having to do individual lines and keeps the CSS code clean.
