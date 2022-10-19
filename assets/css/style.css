@@ -44,6 +44,7 @@ h3{
 
 h1 {
   /* 4rem = 40px (4 * 10px) */
+  padding: 1rem 1.2rem;
   font-size: 4rem;
   text-align: center;
   color: #e866ec;
@@ -64,7 +65,14 @@ h6 {
   margin: 15px;
   font-size: 90%;
   font-weight: 300;
-  color: var(--heliotrope)
+  color: var(--heliotrope);
+}
+
+header {
+  width: 96%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: center;
 }
 
 
@@ -90,12 +98,15 @@ main {
 /* make each code card a flexbox column to align and justify content within it */
 .code-card {
   /* outline is like border, but on the outside of the box instead of inside */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100%;
   outline: 2px dashed var(--gin);
   outline-offset: -2px;
   transition: all 0.5s ease-in-out;
-  width: 500px;
-  align-items: center;
-  margin: 40px 15px 15px 15px;
+  margin: 1.5rem 1rem;
+  flex-grow: 1;
 }
 
 .code-card .card-header {
@@ -112,18 +123,13 @@ main {
   padding: 2px 10px;
   border-radius: 8px;
   margin-top: -20px;
-  width: 350px;
+  width: 90%;
 }
 
 /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
 .code-card:hover,
 .code-card:hover .card-header {
   box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
-}
-
-/* each card's code block grows to the height of the largest code block on the page, making each card even in height */
-.code-card .code-block {
-  
 }
 
 .code-card pre {
@@ -135,13 +141,13 @@ main {
   margin: 15px;
   padding: 1.2rem 1rem;
   color: var(--gin);
-  border-radius: 8px;
-  /* use linear-gradient() function to create a fading background  */
   background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%,
       rgba(232, 102, 236, 0.6) 100%);
   display: flex;
   align-items: center;
+  flex-grow: 1;
 }
+
 
 /* on <pre> click, select all contents so the code is highlighted */
 .code-card pre:active {
@@ -152,25 +158,25 @@ main {
 @media screen and (min-width: 768px) {
 
   /* on tablets, set columns to only be 50% of the width and not grow */
-  .code-card {}
+  .code-card {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 
   /* select the last child to grow to full width if it has space to grow */
-  .card-column:last-child {}
+  .last {
+    flex-grow: 1;
+  }
 }
 
 /* media query for larger screens */
 @media screen and (min-width: 992px) {
-  header {}
-
-  .code-card {}
-}
-/*AW added this from a class example*/
-@media screen and (max-width: 768px) {
   header {
-    flex-direction: column;
+    width: 90%;
   }
 
-  main {
-    max-width: 1200px;
+  .code-card {
+    flex: 1 0 25%;
+    max-width: 33.333%;
   }
 }
