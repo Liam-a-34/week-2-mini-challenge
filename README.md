@@ -76,3 +76,4 @@ Group project members:
 * We learned how to use pre which is used to structure text, almost like hard coding spaces and indentations. This keeps the user from having to do individual lines and keeps the CSS code clean.
 
 # Screenshot
+![Screenshot (3)](https://user-images.githubusercontent.com/114375310/196846264-f66446a6-de72-43b6-8163-262c41ef9c0d.png)
