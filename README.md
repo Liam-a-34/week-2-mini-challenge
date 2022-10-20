@@ -69,7 +69,7 @@ Group project members:
 * MIT License
 
 # Links
-* URL of deployed application: 
+* URL of deployed application: https://liam-a-34.github.io/week-2-mini-challenge/
 * URL of GitHub Repository: https://github.com/Liam-a-34/week-2-mini-challenge
 
 # 📝 Notes
