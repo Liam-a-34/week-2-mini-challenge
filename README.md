@@ -51,8 +51,8 @@ Mini challenge 2 focuses on building a webpage that  holds a collection of CSS s
     ![On a mobile device, the application displays one CSS code snippet per row.](./Images/03-app-mobile.png)
 
 
-# Mock-Up    
-![Screenshot of the live webpage](./assets/images/screenshot.png)
+# Screenshot  
+![Screenshot (3)](https://user-images.githubusercontent.com/114375310/196846264-f66446a6-de72-43b6-8163-262c41ef9c0d.png)
 
 
 # Credit
@@ -74,6 +74,3 @@ Group project members:
 
 # 📝 Notes
 * We learned how to use pre which is used to structure text, almost like hard coding spaces and indentations. This keeps the user from having to do individual lines and keeps the CSS code clean.
-
-# Screenshot
-![Screenshot (3)](https://user-images.githubusercontent.com/114375310/196846264-f66446a6-de72-43b6-8163-262c41ef9c0d.png)
