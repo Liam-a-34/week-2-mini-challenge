@@ -4,7 +4,7 @@
 * Description 
 * Instructions
 * Specification
-* Mock-Up 
+* Screenshot
 * Credit
 * License
 * Links
